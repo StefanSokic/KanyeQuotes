@@ -1,13 +1,13 @@
 var COL_1_CLICKS = 1;
 if ($(window).width() < 797) {
-	
+
 	};
 $(document).ready(function() {
 	$(".face").click( function() {
 		//TODO make the "12" below a length value
 		for(i = 1; i <= 12; i++) {
 			if (COL_1_CLICKS == i) {
-				$(".quotes .column1 h2:nth-child(" + i + ")").fadeIn(10);
+				$(".quotes h2:nth-child(" + i + ")").fadeIn(10);
 			}
 		}
 //		else if (clicks == 1) {
