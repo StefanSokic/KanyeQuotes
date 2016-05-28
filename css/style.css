@@ -1,0 +1,39 @@
+body {
+	background: #F78E58;
+	font-family: 'Roboto', sans-serif;
+	overflow: hidden;
+	color: black;
+}
+.quotes {
+	z-index: 1;
+	position: relative;
+	line-height: 0.5;
+	outline-width: 0.1;
+	font-weight: bold;
+	margin-top: -4%;
+}
+.quotes h2 {
+	font-weight: bold;
+	display: none;
+}
+
+.face {
+	z-index: 2;
+	position: absolute;
+	background-image: url(../assets/face.png);
+	left: 50%;
+	margin-left: -100px;
+	top: 50%;
+	margin-top: -152px;
+	height: 304px;
+	width: 200px;
+}
+h4 {
+	position: relative;
+	font-weight: bold;
+	z-index: 3;
+	display: inline-block;
+	font-size: 22pt;
+	transition: all 6s ease-in-out;
+	margin-left: -250px;
+}
