@@ -1,7 +1,6 @@
 var COL_1_CLICKS = 1;
 if ($(window).width() < 797) {
-	$(".face").css("width", "150px");
-	$(".face").css("height", "228px");
+	
 	};
 $(document).ready(function() {
 	$(".face").click( function() {
