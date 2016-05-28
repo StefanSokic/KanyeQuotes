@@ -15,6 +15,7 @@ body {
 .quotes h2 {
 	font-weight: bold;
 	display: none;
+	margin-left: 20%;
 }
 
 .face {
