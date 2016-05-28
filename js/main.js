@@ -1,6 +1,6 @@
 var COL_1_CLICKS = 1;
 if ($(window).width() < 797) {
-
+	$(".quotes h2").css("margin-left", ("0%"));
 	};
 $(document).ready(function() {
 	$(".face").click( function() {
