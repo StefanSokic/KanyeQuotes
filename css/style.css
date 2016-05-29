@@ -1,10 +1,11 @@
 body {
 	background: #F78E58;
 	font-family: 'Roboto', sans-serif;
-	overflow: hidden;
 	color: black;
 	position: relative;
+	overflow: hidden;
 }
+
 .quotes {
 	z-index: 1;
 	position: relative;
@@ -26,7 +27,7 @@ body {
 	opacity: 0.9;
 	left: 50%;
 	margin-left: -100px;
-	top: 40vh;
+	top: 37vh;
 	margin-top: -152px;
 	height: 304px;
 	width: 200px;
