@@ -1,3 +1,6 @@
+@media screen and (max-width: 797px){
+  overflow: hidden;
+ }
 body {
 	background: #F78E58;
 	font-family: 'Roboto', sans-serif;
