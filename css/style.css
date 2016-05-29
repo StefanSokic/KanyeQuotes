@@ -1,11 +1,9 @@
-@media screen and (max-width: 797px){
-  overflow: hidden;
- }
 body {
 	background: #F78E58;
 	font-family: 'Roboto', sans-serif;
 	overflow: hidden;
 	color: black;
+	position: relative;
 }
 .quotes {
 	z-index: 1;
@@ -13,7 +11,7 @@ body {
 	line-height: 0.5;
 	outline-width: 0.1;
 	font-weight: bold;
-	margin-top: -3%;
+	margin-top: -15%;
 }
 .quotes h2 {
 	font-weight: bold;
@@ -24,11 +22,11 @@ body {
 
 .face img {
 	z-index: 2;
-	position: absolute;
+	position: relative;
 	opacity: 0.9;
 	left: 50%;
 	margin-left: -100px;
-	top: 50%;
+	top: 40vh;
 	margin-top: -152px;
 	height: 304px;
 	width: 200px;
@@ -59,6 +57,7 @@ h4 {
 	padding-top: 5px;
 	padding-right: 5px;
 	padding-bottom: 5px;
+	opacity: 0.8;
 }
 .info a {
 	text-decoration: underline;
