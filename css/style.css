@@ -10,18 +10,19 @@ body {
 	line-height: 0.5;
 	outline-width: 0.1;
 	font-weight: bold;
-	margin-top: -4%;
+	margin-top: -3%;
 }
 .quotes h2 {
 	font-weight: bold;
 	display: none;
 	margin-left: 20%;
+	text-transform: uppercase; 
 }
 
-.face {
+.face img {
 	z-index: 2;
 	position: absolute;
-	background-image: url(../assets/face.png);
+	opacity: 0.9;
 	left: 50%;
 	margin-left: -100px;
 	top: 50%;
@@ -29,6 +30,7 @@ body {
 	height: 304px;
 	width: 200px;
 }
+
 h4 {
 	position: relative;
 	font-weight: bold;
@@ -37,4 +39,25 @@ h4 {
 	font-size: 22pt;
 	transition: all 10s ease-in-out;
 	margin-left: -250px;
+}
+.info {
+	position: relative;
+	z-index: 4;
+	top: 90vh;
+	display: inline-block;
+}
+.info p {
+	font-weight: bold;
+	font-size: 12pt;
+	text-transform: uppercase;
+	color: #F78E58;
+	background-color: #111;
+	padding-left: 40px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+.info a {
+	text-decoration: underline;
+	color: #F78E58;
 }
