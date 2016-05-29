@@ -7,7 +7,7 @@ if ($(window).width() < 797) {
 	$(".face img").css("height", "228");
 	$(".face img").css("margin-left", "-75px");
 	$(".face img").css("margin-top", "-114px");
-	$(".info").css("top", "80vh");
+	$(".info").css("display", "none");
 	};
 
 $(document).ready(function() {
