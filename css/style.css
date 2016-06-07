@@ -24,7 +24,6 @@ body {
 .face img {
 	z-index: 2;
 	position: relative;
-	opacity: 0.9;
 	left: 50%;
 	margin-left: -100px;
 	top: 37vh;
